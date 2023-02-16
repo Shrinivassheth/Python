@@ -1,0 +1,11 @@
+def check(string):
+        count=0
+        for i in string:
+                if (int(i)%2==0):
+                        count+=1
+        if count>=3:
+                return "TRUE"
+        return "FALSE"
+string=input()
+ans=check(string)
+print(ans)
